@@ -1,0 +1,50 @@
+/* Ejemplo CSS ("ejem1_css.css"): CSS Class y Selectores ID */
+/* Regla 1: Aplica al elemento <body> y sus descendientes */
+body {
+  /*  
+    ASÍ SE HACEN COMENTARIOS
+  */
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;            /* 16px = 12pt */
+  color: blue;
+  margin: 5px 15px 5px 15px;  /* top right bottom left - no commas in between */
+  padding: 5;
+  background-color: brown;
+}
+ 
+/* Regla 2: Aplica a elementos <h1> a <h6> */
+h1, h2, h3, h4, h5, h6 {
+
+  color: #12607a37;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#FELIPE{
+background-color: blanchedalmond;
+
+}
+
+#Sobre_mí{
+
+  background-color: cadetblue;
+}
+/* Regla 3: Aplica al elemento con id="header" o id="footer" */
+#header, #footer {
+  background-color: #eee;  /* light gray, same as #eeeeee */
+}
+ 
+/* Regla 4: Aplica al elemento con id="footer" */
+#footer {
+  text-align: right;
+}
+ 
+/* Regla 5: Aplica a todos los elementos con class="new" */
+.new {
+  color: red;
+}
+ 
+/* Regla 6: Aplica a todos los elementos con class="new" */
+.highlight {
+  background-color: yellow;
+}
